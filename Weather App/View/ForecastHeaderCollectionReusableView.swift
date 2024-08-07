@@ -15,7 +15,7 @@ class ForecastHeaderCollectionReusableView: UICollectionReusableView {
         let label = UILabel()
         label.textAlignment = .left
         label.font = UIFont.systemFont(ofSize: 20, weight: .bold)
-        label.text = "Forcast for 7 days"
+        label.text = "Forecast for 5 days"
         return label
     }()
     
