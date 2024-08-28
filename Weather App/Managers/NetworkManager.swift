@@ -11,7 +11,7 @@ class NetworkManager {
     ///Singleton
     static let shared = NetworkManager()
     
-    private let apikey = "273db2cde650f1172b31244611ed9955"
+    private let apikey = "здесь могла бы быть ваша реклама"
     
     private lazy var urlComponent: URLComponents = {
         var component = URLComponents()
